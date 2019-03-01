@@ -47,3 +47,5 @@ steps:
   inputs:
     artifactName: 'war'
     pathToPublish: '$(build.artifactStagingDirectory)'
+    
+    - script: dotnet build # Include additional options such as --configuration to meet your need
